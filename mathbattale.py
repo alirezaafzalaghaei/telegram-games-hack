@@ -5,13 +5,14 @@ from selenium import webdriver
 driver = webdriver.Chrome()
 driver.set_page_load_timeout(10)
 try:
-    driver.get("https://tbot.xyz/math/#eyJ1Ijo1MTk5ODQ5MDcsIm4iOiIuICIsImciOiJNYXRoQmF0dGxlIiwiY2kiOiIyMDUwNTk3MTkyNDkzODM4MDM4IiwiaSI6IkJBQUFBSUFzQXdEWklTaXk5WWVVUV9FbEZkZyJ9NDViN2U4N2FhOTAyZjE4ZDVhM2ZiMGYzMTZkZjQxMzY=")
+    driver.get("PASTE_YOUR_URL_HERE")
 except:
     pass
 
 time.sleep(3)
 i=0
-while True and i<100:
+MAX_RECORD = 100
+while True and i<MAX_RECORD:
     i+=1
     task = driver.find_element_by_css_selector("#task")
     x = task.find_element_by_id('task_x').text.strip()
