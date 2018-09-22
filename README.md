@@ -18,13 +18,15 @@ These steps tested in `1366 x 768` screen resolution and may not work on other r
 
 - open game in a new browser window
 - decrease browser zoom to view all 6 tree leaves
--  move window to left side of screen and decrease browser window to  `1/3` of screen resolution.
+-  move window to left side of screen and decrease browser window to  about `1/3` of screen resolution.
 - run script
 
 ---
 
 ### Math battle
 because of game logic whenever you solve an expression your time will full. so never ever you loose in this game. My record is  23000! you can record much more records ;)
+
+**attention: ** to prevent some errors in record a new record i set a variable `MAX_RECORD` to `100` you can change or remove it ;)
 
 **prerequisites**
 - selenium
