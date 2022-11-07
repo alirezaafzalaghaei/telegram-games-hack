@@ -5,7 +5,7 @@ from selenium import webdriver
 driver = webdriver.Chrome()
 driver.set_page_load_timeout(10)
 try:
-    driver.get("PASTE_YOUR_URL_HERE")
+    driver.get("https://t.me/gamebot?game=MathBattle")
 except:
     pass
 
